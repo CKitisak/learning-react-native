@@ -20,6 +20,8 @@ class FadeInView extends Component {
       this.state.fadeAnim,                      // The animated value to drive
       {
         toValue: 1,                             // Animate to opacity: 1, or fully opaque
+        delay: 500,
+        duration: 3000
       }
     ).start();                                  // Starts the animation
   }
@@ -46,7 +48,7 @@ class AnimationTutorial extends Component {
   };
   render() {
     return (
-      <View style={ [styles.container, styles.bgRed] }>
+      <View style={ [styles.container, styles.bgWhite] }>
         <FadeInView style={{width: 250, height: 50, backgroundColor: 'powderblue'}}>
           <Text style={{fontSize: 28, textAlign: 'center', margin: 10}}>Fading in</Text>
         </FadeInView>
