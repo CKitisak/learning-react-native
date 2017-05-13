@@ -24,8 +24,8 @@ class ImagesTutorial extends Component {
             </Text>
             
             <Image 
-              source={ require('./matt-helbig-237295.jpg') } 
-              style={{ width: 200, height: 200 }} 
+              source={ require('./wonder_woman.jpg') } 
+              style={{ width: 300, height: 400 }} 
             />
           </View>
 
@@ -35,8 +35,8 @@ class ImagesTutorial extends Component {
             </Text>
 
             <Image 
-              source={{ uri: 'https://unsplash.it/g/200/200?random', cache: 'reload' }}
-              style={{ width: 200, height: 200 }} 
+              source={{ uri: 'https://unsplash.it/300/400?random', cache: 'reload' }}
+              style={{ width: 300, height: 400 }} 
             />
           </View>
 
@@ -46,8 +46,8 @@ class ImagesTutorial extends Component {
             </Text>
 
             <Image 
-              source={{ uri: 'https://unsplash.it/g/200/200?image=11', cache: 'reload' }}
-              style={{ width: 200, height: 200 }} 
+              source={{ uri: 'https://unsplash.it/300/400?image=74', cache: 'reload' }}
+              style={{ width: 300, height: 400 }} 
             >
               <Text style={ styles.textCenter }>
                 Some text here
