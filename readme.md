@@ -5,9 +5,9 @@ Simple application created by following the [React Native documentation](https:/
 
 
 ### The React Native CLI
-
+```
 npm install -g react-native-cli
-
+```
 
 
 ### Android Virtual Device (AVD) on command line
