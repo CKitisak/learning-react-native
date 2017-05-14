@@ -49,9 +49,17 @@ class AnimationTutorial extends Component {
   render() {
     return (
       <View style={ [styles.container, styles.bgWhite] }>
-        <FadeInView style={{width: 250, height: 50, backgroundColor: 'powderblue'}}>
-          <Text style={{fontSize: 28, textAlign: 'center', margin: 10}}>Fading in</Text>
-        </FadeInView>
+        <View style={ styles.row }>
+          <Text>
+            3 Seconds Fading with 500ms delay
+          </Text>
+          
+          <FadeInView style={{width: 250, height: 50, backgroundColor: 'powderblue'}}>
+            <Text style={{fontSize: 28, textAlign: 'center', margin: 10}}>
+              Fading Content
+            </Text>
+          </FadeInView>
+        </View>
       </View>
     );
   }
