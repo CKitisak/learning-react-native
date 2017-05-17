@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
   Text,
-  TouchableHighlight,
+  TouchableOpacity,
   View
 } from 'react-native';
 
@@ -31,18 +31,17 @@ class HandlingTouchesTutorial extends Component {
 
   render() {
     return (
-      <View style={ [styles.container, styles.bgRed] }>
+      <View style={ [styles.container, styles.bgGreen] }>
 
         {/* ~~~~ button ~~~~ */}
-        <TouchableHighlight 
+        <TouchableOpacity 
           onPress={ this._onPressButton }
-          underlayColor={ '#00487d' }
-          style={ styles.button }
+          style={ [styles.button, styles.buttonYellow] }
         >
           <Text style={ styles.buttonText }>
             Press here
           </Text>
-        </TouchableHighlight>
+        </TouchableOpacity>
 
         {/* ~~~~ result ~~~~ */}
         <Text style={ styles.textLabel }>
