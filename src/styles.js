@@ -12,8 +12,21 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'flex-start'
   },
+  box: {
+    padding: 15,
+    marginBottom: 15
+  },
   bgRed: {
-    backgroundColor: '#cd5c5c'
+    backgroundColor: '#d62d20'
+  },
+  bgGreen: {
+    backgroundColor: '#008744'
+  },
+  bgBlue: {
+    backgroundColor: '#0057e7'
+  },
+  bgYellow: {
+    backgroundColor: '#ffa700'
   },
   bgGray: {
     backgroundColor: '#ececec'
@@ -46,8 +59,6 @@ const styles = StyleSheet.create({
   button: {
     borderRadius: 10,
     borderWidth: 1,
-    borderColor: '#00487d',
-    backgroundColor: '#0068B3',
     paddingHorizontal: 20,
     paddingVertical: 10
   },
@@ -55,6 +66,22 @@ const styles = StyleSheet.create({
     color: '#fff',
     textAlign: 'center'
   },
+  buttonRed: {
+    borderColor: '#951f16',
+    backgroundColor: '#d62d20',
+  },
+  buttonGreen: {
+    borderColor: '#005e2f',
+    backgroundColor: '#008744',
+  },
+  buttonBlue: {
+    borderColor: '#0045b8',
+    backgroundColor: '#0057e7',
+  },
+  buttonYellow: {
+    borderColor: '#b27400',
+    backgroundColor: '#ffa700',
+  }
 });
 
 module.exports = styles;
