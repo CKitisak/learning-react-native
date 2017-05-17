@@ -8,6 +8,7 @@ import HandlingTouchesTutorial from './HandlingTouches';
 import AnimationTutorial from './Animation';
 import ImagesTutorial from './Images';
 import PlatformsTutorial from './Platforms';
+import DirectManipulationTutorial from './DirectManipulation';
 
 // ~~~~ Navigation
 const app = StackNavigator({
@@ -16,6 +17,7 @@ const app = StackNavigator({
   AnimationTutorial: { screen: AnimationTutorial },
   ImagesTutorial: { screen: ImagesTutorial },
   PlatformsTutorial: { screen: PlatformsTutorial },
+  DirectManipulationTutorial: { screen: DirectManipulationTutorial }
 });
 
 module.exports = app;

@@ -45,6 +45,14 @@ class HomeScreen extends Component {
           }
         />
 
+        <Button
+          title="DirectManipulation"
+          onPress={
+            () => navigate('DirectManipulationTutorial')
+          }
+        />
+        
+
       </View>
     );
   }
